@@ -17,9 +17,7 @@ function App() {
 
      const [rows,setRows]=useState([
       {
-        partyName:'chdi',mobileNumber:32123,gold:3212,silver:213,amount:123312,
-      },{
-        partyName:'chandu',mobileNumber:32123,gold:3212,silver:213,amount:123312
+        partyName:'Aditya Dave',mobileNumber:+982832123,gold:3212,silver:213,amount:123312,
       }
      ]);
      const [rowToEdit, setRowToEdit] = useState(null);
